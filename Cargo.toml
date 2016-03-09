@@ -5,8 +5,8 @@ version = "0.5.4"
 authors = [ "Dawid Ciężarkiewicz <dpc@ucore.info>",
             "Andrew Poelstra <apoelstra@wpsoftware.net>" ]
 license = "CC0-1.0"
-homepage = "https://github.com/apoelstra/rust-secp256k1/"
-repository = "https://github.com/apoelstra/rust-secp256k1/"
+homepage = "https://github.com/dallyshalla/rust-secp256k1/"
+repository = "https://github.com/dallyshalla/rust-secp256k1/"
 documentation = "https://www.wpsoftware.net/rustdoc/secp256k1/"
 description = "Rust bindings for Pieter Wuille's `libsecp256k1` library. Implements ECDSA for the SECG elliptic curve group secp256k1 and related utilities."
 keywords = [ "crypto", "ECDSA", "secp256k1", "libsecp256k1", "bitcoin" ]
@@ -28,9 +28,9 @@ dev = ["clippy"]
 [dependencies]
 arrayvec = "0.3"
 clippy = {version = "0.0", optional = true}
-rand = "0.3"
 libc = "0.1"
-rustc-serialize = "0.3"
-serde = "0.6"
-serde_json = "0.6"
+rand = "0.3.14"
+rustc-serialize = "0.3.18"
+serde = "0.7"
+serde_json = "0.7"
 
